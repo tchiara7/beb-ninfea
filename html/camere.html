@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camere</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open%20Sans">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/core.css">
+    <link rel="stylesheet" href="../css/camere.css">
+</head>
+
+<body>
+    <div>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+                <a href="#logo" class="navbar-brand ms-3">
+                    <img src="../res/B&B Ninfea.png" alt="Logo B&B Ninfea" class="img-brand">
+                </a>
+                <div class="collapse navbar-collapse fs-18">
+                    <div class="navbar-nav ms-auto">
+                        <a href="./index.html" class="home text-white text-decoration-none nav-link active me-3">
+                            HOME
+                        </a>
+                        <a href="./camere.html" class="text-white nav-link me-3">
+                            CAMERE
+                        </a>
+                        <a href="./servizi.html" class="text-white nav-link me-3">
+                            SERVIZI
+                        </a>
+
+                        <a href="./contatti.html" class="text-white nav-link me-3">
+                            CONTATTI
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-img position-relative">
+            <div class="shadow-background img-shadow w-100 position-absolute"></div>
+
+            <img class="w-100 img-camera" src="../res/camera-1.jpg" alt="camera">
+        </div>
+
+        <div class="mx-3 mt-3">
+            <span>Camere accoglienti e raffinate, dove l'equilibrio tra linee moderne e tocchi classici crea
+                un'atmosfera intima e rilassante.
+                L'attenzione ai dettagli e il comfort sono pensati per garantire un'esperienza piacevole, sia per chi
+                cerca una fuga romantica, sia per chi viaggia per lavoro.
+                Ogni elemento è curato per offrire un soggiorno rilassante e memorabile, con servizi su misura per ogni
+                esigenza.</span>
+        </div>
+
+        <div class="container-fluid text-white mt-4">
+            <div class="row">
+                <div class="col-xl-4 col-md-6 col-sm-12 mb-4">
+                    <div class="card card-camera camera-std bg-secondary position-relative">
+                        <div class="shadow-background img-shadow w-100 position-absolute"></div>
+                        <div class="position-absolute bottom-0 px-4 pb-4">
+                            <h3 class="row fw-bold">Camera Standard</h3>
+                            <span class="row">Letto Matrimoniale e letto singolo | minibar | scrivania | 18 m² | Wi-Fi gratuito | TV
+                                satellitare | aria condizionata</span>
+                            <button type="button" class="row btn beb-button mt-3 fw-bold px-3" onclick="prenota('standard')">PRENOTA ORA</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-md-6 col-sm-12 mb-4">
+                    <div class="card card-camera camera-deluxe bg-secondary position-relative">
+                        <div class="shadow-background img-shadow w-100 position-absolute"></div>
+                        <div class="position-absolute bottom-0 px-4 pb-4">
+                            <h3 class="row fw-bold">Camera Deluxe</h3>
+                            <span class="row">Letto Matrimoniale | scrivania | 28 m² | WiFi gratuito | TV satellitare | 
+                                minibar | aria condizionata | cassaforte | telefono | prodotti da bagno | bar | sale riunioni | eventi privati e aziendali</span>
+                            <button type="button" class="row btn beb-button mt-3 fw-bold px-3" onclick="prenota('deluxe')">PRENOTA ORA</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-md-6 col-sm-12 mb-4">
+                    <div class="card card-camera camera-suite bg-secondary position-relative">
+                        <div class="shadow-background img-shadow w-100 position-absolute"></div>
+                        <div class="position-absolute bottom-0 px-4 pb-4">
+                            <h3 class="row fw-bold">Camera Suite</h3>
+                            <span class="row">Letto matrimoniale e 1 letto singolo | scrivania | 58 m² | WiFi gratuito | TV 
+                                satellitare | minibar | aria condizionata | cassaforte | telefono | prodotti da bagno | bar | sale riunioni | eventi privati e aziendali</span>
+                            <button type="button" class="row btn beb-button mt-3 fw-bold px-3" onclick="prenota('suite')">PRENOTA ORA</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <footer class=" py-4 text-center text-white footer-color-bg">
+            <div class="container">
+                <div class="row mb-3">
+                    <div class="col footer-social-icons">
+                        <h5 class="font-anton">Seguici sui social:</h5>
+                        <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-whatsapp"></i></a>
+                        <h6 class="mt-2">"Coccole e Relax nel Cuore della Natura"</h6>
+                    </div>
+                    <div class="col">
+                        <h5>Indirizzo</h5>
+                        <p>Via della Pace, 124</p>
+                        <p>00144 Roma, Italia</p>
+                    </div>
+                    <div class="col">
+                        <h5>Contatti</h5>
+                        <p>Email: info@b&bninfea.it</p>
+                        <p>Telefono: +39 354 556 989</p>
+                    </div>
+                </div>
+                <p class="mb-0">&copy; 2024 B&B Ninfea. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

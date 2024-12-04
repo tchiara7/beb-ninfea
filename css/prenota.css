@@ -1,0 +1,39 @@
+body{
+    background-image: url("../res/prenota-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-class{
+    background-color: white;
+    z-index: 9999;
+    color: #FF8D21;
+}
+
+.navbar-prenota{
+    z-index: 9999;
+}
+
+.price {
+    color: #FF8D21;
+}
+
+.button-color{
+    background-color: #FF8D21;
+    color: white;
+    border: none;
+}
+
+footer{
+    z-index: 9999;
+    position: relative;
+}
+
+.img-prenota{
+    width: 100%;
+    object-fit: cover;
+}
+
+.form-input{
+    width: 50%;
+}

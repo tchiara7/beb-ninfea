@@ -1,0 +1,29 @@
+.container-img {
+    height: 350px;
+}
+
+.img-camera {
+    height: inherit;
+    object-fit: cover;
+}
+
+.img-shadow {
+    height: inherit;
+}
+
+.card-camera {
+    height: 450px;
+    object-fit: cover;
+}
+
+.camera-std {
+    background-image: url('../res/camera-std.jpg');
+}
+
+.camera-deluxe {
+    background-image: url('../res/camera-deluxe.jpg');
+}
+
+.camera-suite {
+    background-image: url('../res/camera-suite.jpg');
+}

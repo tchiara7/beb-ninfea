@@ -1,0 +1,40 @@
+.container-img {
+    height: 350px;
+}
+
+.img-camera {
+    height: inherit;
+    object-fit: cover;
+}
+
+.bordo-card{
+    border: 1px solid #FF8D21;
+    padding: 16px;
+}
+
+.img-card{
+    width: 100%;
+    height: auto;
+}
+
+.posizione-contatti{
+    color: #FF8D21;
+}
+
+.logo-e-raggiungerci{
+    color: rgb(48, 48, 105);
+}
+
+.contatti-social-icons a i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.contatti-social-icons a i:hover {
+    color: orange;
+}
+
+.in-auto{
+    font-weight: bold; 
+    color:rgb(48, 48, 105);
+}

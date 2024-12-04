@@ -1,0 +1,22 @@
+.container-img {
+    height: 350px;
+}
+
+.img-contenuto {
+    height: inherit;
+    width: 100%;
+    object-fit: cover;
+}
+
+.servizi{
+    color: #FF8D21;
+}
+
+.logo{
+    color: rgb(48, 48, 105);
+}
+
+.in-bb{
+    font-weight: bold; 
+    color:rgb(48, 48, 105);
+}
