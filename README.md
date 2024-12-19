@@ -17,4 +17,4 @@ Ho utilizzato:
 
 ## Index
 
-<img src="https://github.com/tchiara7/beb-ninfea/blob/master/screenshots/1.jpg">
+<img src="https://github.com/tchiara7/beb-ninfea/blob/main/screenshots/1.jpg">
